@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile Card</title>
+  <style>
+    {
+    * 
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: #111;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+
+    .card {
+      background: #1c1c1c;
+      width: 320px;
+      padding: 25px 20px;
+      border-radius: 14px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    }
+
+    .avatar {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+
+    h2 {
+      margin: 5px 0;
+      font-size: 22px;
+    }
+
+    .location {
+      color: #b4ff39;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .bio {
+      font-size: 14px;
+      color: #ccc;
+      margin-bottom: 20px;
+    }
+
+    .links button {
+      width: 100%;
+      padding: 12px;
+      margin: 6px 0;
+      border: none;
+      border-radius: 8px;
+      background: #2a2a2a;
+      color: #fff;
+      font-size: 15px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+
+    .links button:hover {
+      background: #3a3a3a;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img class="avatar" src="assets/images/avatar-jessica.jpeg" alt="Profile">
+    <h2>Jessica Randall</h2>
+    <div class="location">London, United Kingdom</div>
+    <div class="bio">“Front-end developer and avid reader.”</div>
+
+    <div class="links">
+      <button>GitHub</button>
+      <button>Frontend Mentor</button>
+      <button>LinkedIn</button>
+      <button>Twitter</button>
+      <button>Instagram</button>
+    </div>
+  </div>
+
+</body>
+</html>
